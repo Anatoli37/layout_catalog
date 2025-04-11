@@ -229,3 +229,21 @@ body {
 .stars--5 .stars__star:nth-child(-n + 5) {
   background-image: url(../images/star-active.svg);
 }
+
+@media (max-width: 488px) {
+  .stars__star:last-child {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .stars__star:last-child {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .stars__star:last-child {
+    width: 100%;
+  }
+}
